@@ -7,15 +7,15 @@ type Props = {
 
 const Layout = ({ children }: Props) => {
   return (
-    <html>
-      <body className="bg-black text-white">
-        <h1>Meu Primeiro Projeto Next</h1>
-        <hr />
+    <div>
+        <h2>Área de Autenticação</h2>
         <div>
-          {children}
+            {children}
         </div>
-      </body>
-    </html>
+        <div>
+            Login ou Cadastro
+        </div>
+    </div>
   );
 }
 

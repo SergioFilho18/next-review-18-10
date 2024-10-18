@@ -1,7 +1,7 @@
 const Page = () => {
-    return(
+    return (
         <div>
-            Page dentro da Root SergioFii
+            Sign UP
         </div>
     );
 }
